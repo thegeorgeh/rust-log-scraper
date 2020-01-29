@@ -9,20 +9,21 @@
     Error: String,
 }*/
 
-const words_to_search : [&str; 1] = ["Error"];
 
-//static mut directory: String = String::from("");
+
+
 
 #[derive(Default)]
 pub struct LogParam {
-   directory: String,
+    directory: String,
+   // keywords_list: Vec<String>,
 }
 
 impl LogParam {
 
     pub fn new() -> LogParam {
         LogParam {
-            directory: String::from(""),
+            directory: "",
         }
     }
     

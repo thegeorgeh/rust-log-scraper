@@ -1,3 +1,4 @@
 
-pub mod checkLog;
+//pub mod logic;
+pub mod readLog;
 

@@ -15,7 +15,7 @@
 
 #[derive(Default)]
 pub struct LogParam {
-   directory: String,
+    directory: String,
    // keywords_list: Vec<String>,
 }
 
@@ -23,7 +23,7 @@ impl LogParam {
 
     pub fn new() -> LogParam {
         LogParam {
-            directory: String::from(""),
+            directory: "".to_string(),
         }
     }
     
